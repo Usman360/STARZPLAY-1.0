@@ -98,7 +98,8 @@ struct DetailView : View{
     @Binding var isNavigate : Bool
     @State private var showFullOverview = false
     let showsModel : Result
-
+    @State var btnList = [OptionsModel(id: 1 , name: "Watchlist", image: "plus", isClicked: false),OptionsModel(id: 2 , name: "I like it", image: "hand.thumbsup", isClicked: false),OptionsModel(id: 3 , name: "I don't like it", image: "hand.thumbsdown", isClicked: false)]
+   
     var body: some View {
         VStack(alignment: .leading, spacing: 8){
             HStack{
@@ -199,17 +200,32 @@ struct DetailView : View{
             HStack(spacing:20){
                 ForEach(0..<showDetailVM.btnList.count, id: \.self){ index in
                     VStack(spacing:8){
-                        ZStack{
-                            Image(systemName: showDetailVM.btnList[index].image)
-                                .resizable()
-                                .frame(width: 15, height: 15, alignment: .center)
-                                .foregroundColor(Color.white)
+                        Button {
+                            if btnList[index].id != 1{
+                                var arr = btnList
+                                arr  = arr.map {  obj in
+                                    var obj = obj
+                                    if obj.isClicked == true {
+                                        obj.isClicked = false
+                                    }
+                                    return obj
+                                }
+                                arr[index].isClicked.toggle()
+                                btnList = arr
+                            }
+                           
+                        } label: {
+                            ZStack{
+                                Image(systemName: btnList[index].setImg)
+                                    .resizable()
+                                    .frame(width: 15, height: 15, alignment: .center)
+                                    .foregroundColor(Color.white)
+                            }
+                            .frame(width: 40, height: 40, alignment: .center)
+                            .background(Color.CUSTOMBLACK_28272B)
+                            .clipShape(Circle())
+                            
                         }
-                        .frame(width: 40, height: 40, alignment: .center)
-                        .background(Color.CUSTOMBLACK_28272B)
-                        .clipShape(Circle())
-                        
-                        
                         Text(showDetailVM.btnList[index].name)
                             .customFont(weight: .regular, size: 12)
                             .foregroundColor(.gray)
@@ -217,7 +233,7 @@ struct DetailView : View{
                 }
                 Spacer()
             }
-         
+            
         }
         .padding(10)
         

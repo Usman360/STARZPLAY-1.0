@@ -20,12 +20,12 @@ class ShowDetailViewModel : ObservableObject{
     @Published var isAlreadySelected = true
     
     @Published var seasonList = [SeasonsTapModel]()
-
-    let btnList = [OptionsModel(name: "Watchlist", image: "plus"),OptionsModel(name: "I like it", image: "hand.thumbsup"),OptionsModel(name: "I don't like it", image: "hand.thumbsdown")]
+    
+    
     init(service: MovieServiceProtocol = MovieService()) {
         self.service = service
     }
-    
+   
     func fetchTVShowData(showId: Int){
         isLoading = true
         let params = ["api_key": Constants.APIEnvionment.apiKey]

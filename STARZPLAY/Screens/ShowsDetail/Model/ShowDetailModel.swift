@@ -164,8 +164,20 @@ struct SpokenLanguage: Codable {
 
 
 struct OptionsModel {
+    let id : Int
     let name : String
     let image : String
+    var isClicked  : Bool
+    var setImg : String{
+        switch id{
+        case 2:
+            return  isClicked ? "hand.thumbsup.fill" : image
+        case 3:
+            return  isClicked ? "hand.thumbsdown.fill" : image
+        default:
+            return image
+        }
+    }
 }
 struct SeasonsTapModel : Identifiable{
     let id : Int

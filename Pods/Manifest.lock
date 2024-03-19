@@ -1,0 +1,16 @@
+PODS:
+  - SPNetworking (0.1.0)
+
+DEPENDENCIES:
+  - SPNetworking (from `../STARZPLAY/SPNetworking`)
+
+EXTERNAL SOURCES:
+  SPNetworking:
+    :path: "../STARZPLAY/SPNetworking"
+
+SPEC CHECKSUMS:
+  SPNetworking: afb6ab7a657fdfeab71e096d62112007cc3de483
+
+PODFILE CHECKSUM: 187ab7f0f476e5122627656f3648a8b1014a3f5b
+
+COCOAPODS: 1.12.1

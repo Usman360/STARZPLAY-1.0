@@ -1,0 +1,50 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9821fb1664669bef36589fd8b5dbc7ee9f"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e980c692c9dd4d7b2391e3e5a47c18fa3a0"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e988f7ce07f6f2c825f0e01a4bd191711e1"
+    }
+  ],
+  "containerPath" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/ent18012078/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ent18012078/Library/Developer/Xcode/DerivedData/Pods-hgnnacjgiudwweboulvgtlfwqlfj/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ent18012078/Library/Developer/Xcode/DerivedData/Pods-hgnnacjgiudwweboulvgtlfwqlfj/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

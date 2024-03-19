@@ -1,0 +1,10 @@
+framework module SPNetworking {
+  umbrella header "SPNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SPNetworking.__Swift {
+  exclude header "SPNetworking-Swift.h"
+}

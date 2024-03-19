@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'Pods-SPNetworking_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-SPNetworking_Example' in project 'Pods'
+Target 'Pods-SPNetworking_Example' in project 'Pods'
+➜ Explicit dependency on target 'SPNetworking' in project 'Pods'
+Target 'SPNetworking' in project 'Pods' (no dependencies)

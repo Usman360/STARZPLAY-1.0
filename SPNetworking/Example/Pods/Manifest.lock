@@ -1,0 +1,16 @@
+PODS:
+  - SPNetworking (0.1.0)
+
+DEPENDENCIES:
+  - SPNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  SPNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPNetworking: afb6ab7a657fdfeab71e096d62112007cc3de483
+
+PODFILE CHECKSUM: 83aa578c03cad91a7a5a818cfeafbc92172c1036
+
+COCOAPODS: 1.12.1

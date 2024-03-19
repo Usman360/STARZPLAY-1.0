@@ -1,0 +1,40 @@
+{
+  "" : {
+    "const-values" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master.swiftconstvalues",
+    "dependencies" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master.d",
+    "diagnostics" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master.dia",
+    "emit-module-dependencies" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/SPNetworking-master.swiftdeps"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/ApiRequest.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/ApiRequest.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/ApiRequest.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/ApiRequest.o"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/Network-Extension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/Network-Extension.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/Network-Extension.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/Network-Extension.o"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/NetworkEncoding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkEncoding.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkEncoding.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkEncoding.o"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/NetworkManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkManager.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkManager.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkManager.o"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/NetworkSession.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkSession.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkSession.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkSession.o"
+  },
+  "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Classes/NetworkUtils.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkUtils.o",
+    "llvm-bc" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkUtils.bc",
+    "object" : "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/SPNetworking.build/Objects-normal/arm64/NetworkUtils.o"
+  }
+}

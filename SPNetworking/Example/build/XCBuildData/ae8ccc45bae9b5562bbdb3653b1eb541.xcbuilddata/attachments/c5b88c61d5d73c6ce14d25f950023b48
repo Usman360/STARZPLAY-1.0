@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Release-iphoneos/Pods_SPNetworking_Example.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/Pods-SPNetworking_Example.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Release-iphoneos/Pods_SPNetworking_Example.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "Pods_SPNetworking_Example-Swift.h",
+      'external-contents': "/Users/ent18012078/Documents/Faxi/Demo copy/STARZPLAY/SPNetworking/Example/build/Pods.build/Release-iphoneos/Pods-SPNetworking_Example.build/unextended-interface-header.h",
+    }]
+    }]
+}

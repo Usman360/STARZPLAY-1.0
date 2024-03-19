@@ -1,0 +1,5 @@
+ extern const unsigned char SPNetworkingVersionString[];
+ extern const double SPNetworkingVersionNumber;
+
+ const unsigned char SPNetworkingVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SPNetworking  PROJECT:Pods-1" "\n";
+ const double SPNetworkingVersionNumber __attribute__ ((used)) = (double)1.;
